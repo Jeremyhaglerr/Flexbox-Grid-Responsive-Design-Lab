@@ -48,3 +48,20 @@ h1 {
   font-size: 3rem;
   padding: 12px 0;
 }
+
+#occupation {
+  background-color: rgb(218, 215, 215);
+  padding: 20px 0;
+}
+
+#brand {
+  display: none;
+}
+
+#offer {
+  padding: 20px 0;
+}
+
+#contact {
+  display: flex;
+}
