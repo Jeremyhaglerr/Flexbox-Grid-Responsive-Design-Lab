@@ -110,4 +110,30 @@ h1 {
     grid-area: img;
     margin: 0 auto;
   }
+  #name {
+    grid-area: name;
+    margin: 0
+  }
+
+  #contact {
+    grid-area: contact;
+  } 
+
+  #brand {
+    grid-area: brand;
+    display: inline;
+  }
+
+  #brand > p {
+    border-left: rgb(52, 204, 118) 5px solid;
+    color: rgb(93, 93, 93);
+    padding: 0 20px 0 10px;
+    font-size: 1.5rem;
+  }
+
+  #offer {
+    grid-area: offer;
+    font-size: 1.5rem;
+    padding: 10px;
+  } 
 }
