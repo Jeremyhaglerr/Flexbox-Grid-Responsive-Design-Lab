@@ -28,3 +28,23 @@ main {
   text-align: center;
 }
 
+#status {
+  text-align: right;
+  font-size: 1.2rem;
+  color: rgb(175, 175, 175);
+  padding: 10px 10px 0 0;
+}
+
+img {
+  border-radius: 50%;
+  border: rgb(16, 195, 106) 5px solid;
+}
+
+h1, p {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 12px 0;
+}
