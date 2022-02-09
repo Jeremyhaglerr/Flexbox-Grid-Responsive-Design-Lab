@@ -65,3 +65,19 @@ h1 {
 #contact {
   display: flex;
 }
+
+#contact > p {
+  height: 65px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*phone*/
+#contact > p:first-child {
+  background-color: rgb(51, 194, 139);
+}
+/*message*/
+#contact > p:last-child {
+  background-color: rgb(59, 155, 99);
+}
