@@ -81,3 +81,33 @@ h1 {
 #contact > p:last-child {
   background-color: rgb(59, 155, 99);
 }
+
+@media only screen and (min-width: 500px) {
+  main {
+    display: grid;
+    text-align: left;
+    width: 500px;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+      "status name"
+      "img occupation"
+      "img brand" 
+      "contact offer";
+  }
+
+  #name, #occupation, #brand, #offer {
+    padding-left: 10px;
+    background-color: lightgray;
+  }
+
+  #status {
+    grid-area: status;
+    text-align: left;
+    padding: 10px 0 0 10px;
+  }
+
+  img {
+    grid-area: img;
+    margin: 0 auto;
+  }
+}
