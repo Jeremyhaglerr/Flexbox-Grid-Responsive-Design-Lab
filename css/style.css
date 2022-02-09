@@ -12,8 +12,7 @@ html {
 
 body {
   background-color: rgb(14, 116, 107);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI"
-    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI" Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -51,7 +50,7 @@ h1 {
 
 #occupation {
   background-color: rgb(218, 215, 215);
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 #brand {
@@ -106,30 +105,34 @@ h1 {
     padding: 10px 0 0 10px;
   }
 
-  img {
-    grid-area: img;
-    margin: 0 auto;
-  }
   #name {
     grid-area: name;
     margin: 0
   }
 
-  #contact {
-    grid-area: contact;
-  } 
+  img {
+    grid-area: img;
+    margin: 0 auto;
+  }
+  #occupation {
+    grid-area: occupation;
+  }
 
   #brand {
     grid-area: brand;
     display: inline;
   }
-
+  
   #brand > p {
     border-left: rgb(52, 204, 118) 5px solid;
     color: rgb(93, 93, 93);
     padding: 0 20px 0 10px;
     font-size: 1.5rem;
   }
+
+  #contact {
+    grid-area: contact;
+  } 
 
   #offer {
     grid-area: offer;
